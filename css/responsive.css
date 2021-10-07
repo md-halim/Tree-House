@@ -1,0 +1,161 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .project_image img {
+        width: 55%;
+    }
+    .contact_txt h2 {
+        font-size: 38px;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .project_image img {
+        width: 40%;
+    }
+    .banner_txt h2 {
+        font-size: 40px;
+    }
+    .client_1_txt {
+        margin-top: 50px;
+    }
+    .client_1_txt::before {
+        content: "";
+        top: 30px;
+        left: 90px;
+        border-color: transparent transparent #f4f4f4 transparent;
+    }
+    .client_2_txt {
+        margin-bottom: 50px;
+    }
+    .client_2_txt::after {
+        right: 100px;
+        top: 213px;
+        border-color: #f4f4f4 transparent transparent;
+    }
+    .contact_txt h2 {
+        font-size: 24px;
+    }
+    .contact_txt a {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .footer_text p {
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width:576px) and (max-width:767px) {
+    .project_image img {
+        display: none;
+    }
+    .client_1_txt {
+        margin-top: 50px;
+    }
+    .client_1_txt::before {
+        content: "";
+        top: 30px;
+        left: 90px;
+        border-color: transparent transparent #f4f4f4 transparent;
+    }
+    .client_2_txt {
+        margin-bottom: 50px;
+    }
+    .client_2_txt::after {
+        right: 100px;
+        border-color: #f4f4f4 transparent transparent;
+        top: 214px;
+    }
+    .client .client_1_txt p {
+        padding: 0px 0px;
+    }
+    .client .client_2_txt p {
+        padding: 0px 0px;
+    }
+    .footer_menu h3 {
+        margin-top: 30px;
+    }
+    .contact_txt h2 {
+        font-size: 20px;
+    }
+
+    .contact_txt a {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+
+}
+
+
+@media(max-width:575px) {
+    .install_option h2 {
+        font-size: 24px;
+    }
+    .install_option h3 {
+        font-size: 24px;
+    }
+    .project_image img {
+        display: none;
+    }
+    .project_header h2 {
+        font-size: 30px;
+    }
+    .project_header p {
+        font-size: 14px;
+    }
+    .project_area {
+        padding: 55px 0;
+    }
+    .project_header {
+        margin-bottom: 50px;
+    }
+    .searvise h3 {
+        font-size: 24px;
+    }
+
+
+    .client_1_txt {
+        margin-top: 50px;
+    }
+    .client_1_txt::before {
+        content: "";
+        top: 30px;
+        left: 65px;
+        border-color: transparent transparent #f4f4f4 transparent;
+    }
+    .client_2_txt {
+        margin-bottom: 50px;
+    }
+    .client_2_txt::after {
+        right: 70px;
+        top: 276px;
+        border-color: transparent transparent;
+    }
+    .client .client_1_img {
+        height: 150px;
+        width: 150px;
+    }
+    .client .client_1_txt p {
+        line-height: 20px;
+        padding: 0;
+    }
+    .client .client_2_txt p {
+        line-height: 20px;
+        padding: 0;
+    }
+
+    .client .client_2_img {
+        height: 150px;
+        width: 150px;
+    }
+    .footer_menu h3 {
+        margin-top: 30px;
+    }
+    .contact_txt h2 {
+        font-size: 16px;
+    }
+    .contact_txt a {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
